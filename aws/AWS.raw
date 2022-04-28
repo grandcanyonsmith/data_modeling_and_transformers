@@ -1,0 +1,55 @@
+# What is Amazon comprehend? openai_conversation_AWS_call_analysis.txt
+
+Amazon Comprehend is a machine learning service that makes it easy to discover insights and relationships in text.
+
+What are the key features?
+
+- Amazon Comprehend can return information about the language of the text, the dominant sentiment (positive, negative, or neutral), key phrases, named entities (people, places, organizations, events, etc.), and syntax (part of speech).
+
+-Dominant Sentiment
+-Key Phrases
+-Name Entities
+--People
+--Places
+--Organizations
+--Events
+
+-Syntax (part of speech)
+
+
+How do you setup using Comprehend to extract all of that?
+
+# Instructions
+
+1. Sign in to the AWS Management Console and open the Amazon Comprehend console at https://console.aws.amazon.com/comprehend/.
+
+2. In the navigation pane, choose Text in the drop-down menu, and then choose the Datasource you want to analyze.
+
+3. In the Datasource pane, choose the document you want to analyze, and then choose Analyze.
+
+4. In the Analyze pane, choose the language of the text, and then choose Analyze.
+
+5. Amazon Comprehend returns the results of the analysis.
+
+The out put will show the dominant sentiment, key phrases, named entities, and syntax.
+
+
+
+I have the output.tar.gz now what do I do?
+
+1. Unzip the output.tar.gz file.
+
+2. This will create a new folder called output.
+
+3. Inside the output folder, you will find Now what do I do a file called results.json.
+
+4. Open the results.json file in a text editor or JSON viewer.
+
+5. The results.json file contains the results of the Amazon Comprehend analysis.
+
+
+OK I have opened the results.
+
+How do I extract the dominant sentiment of the whole conversation?
+
+The dominant sentiment is the overall sentiment of the text. To extract the dominant sentiment, you will need to find the sentiment key in the results.json file. The sentiment key has a value of positive, negative, or neutral.
